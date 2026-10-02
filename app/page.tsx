@@ -227,9 +227,8 @@ export default function Page() {
                   />
                 </label>
                 <label className="space-y-2 text-[#111f0f] text-sm font-semibold">
-                  Email address
+                  Email address (Optional)
                   <input
-                    required
                     type="email"
                     value={form.email}
                     onChange={(e) => update("email", e.target.value)}
